@@ -1,0 +1,1 @@
+faiss_vector_store_main/index.faiss filter=lfs diff=lfs merge=lfs -text

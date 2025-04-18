@@ -1,0 +1,10 @@
+streamlit
+langchain
+openai
+dotenv
+pandas
+langchain_openai
+langchain_qdrant
+qdrant_client
+langchain_community
+faiss-cpu
