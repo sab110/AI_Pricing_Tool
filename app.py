@@ -137,7 +137,7 @@ def main():
 
     # Sidebar: Upload & update knowledge base
     st.sidebar.title("📂 Knowledge Base Manager")
-    uploaded_files = st.sidebar.file_uploader("Upload CSV or Excel Files", type=["csv"], accept_multiple_files=True)
+    uploaded_files = st.sidebar.file_uploader("Upload CSV Files", type=["csv"], accept_multiple_files=True)
     update_mode = st.sidebar.radio("Update Mode", ["Append to Vector Store", "Overwrite Vector Store"])
     process_button = st.sidebar.button("📤 Process Files")
 
