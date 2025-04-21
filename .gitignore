@@ -172,3 +172,5 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+data/
+Copy of Master Hospital Pricing.xlsx
