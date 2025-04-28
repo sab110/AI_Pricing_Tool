@@ -152,7 +152,7 @@ def rag_chain(question, persist_directory, embeddings):
     # retriever = load_vector_db(persist_directory, collection_name="demo_collection", embeddings=embeddings)
     retriever = load_vector_db(embeddings=embeddings)
     
-    retrieved_docs = retriever.get_relevant_documents(question, k=1)
+    retrieved_docs = retriever.get_relevant_documents(question, k=5)
 
     if not retrieved_docs:
         print("No documents retrieved.")
